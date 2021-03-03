@@ -1,0 +1,3 @@
+/home/qodirov/Documents/master-degree/opencv_learning/basic-tutorial/examples/create_image/CMakeFiles/rebuild_cache.dir
+/home/qodirov/Documents/master-degree/opencv_learning/basic-tutorial/examples/create_image/CMakeFiles/main.dir
+/home/qodirov/Documents/master-degree/opencv_learning/basic-tutorial/examples/create_image/CMakeFiles/edit_cache.dir
