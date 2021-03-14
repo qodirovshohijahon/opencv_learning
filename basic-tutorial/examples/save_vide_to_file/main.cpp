@@ -22,13 +22,17 @@ int main(int argc, char* argv[])
 
     int frame_width = static_cast<int>(cap.get(CAP_PROP_FRAME_WIDTH)); //get the width of frames of the video
     int frame_height = static_cast<int>(cap.get(CAP_PROP_FRAME_HEIGHT)); //get the height of frames of the video
+    cout << frame_height << " : " << frame_width << endl;
     
+    cout << " CAP_PROP_FRAME_HEIGHT : " << CAP_PROP_FRAME_HEIGHT << endl;
+    cout << " CAP_PROP_FRAME_WIDTH : " << CAP_PROP_FRAME_WIDTH << endl;
+
     Size frame_size(frame_width, frame_height);
     int frames_per_second = 10;
 
     //Create and initialize the VideoWriter object 
-    VideoWriter oVideoWriter("D:/MyVideo.avi", VideoWriter::fourcc('M', 'J', 'P', 'G'), 
-                                                               frames_per_second, frame_size, true); 
+    VideoWriter oVideoWriter("./MyVideo.avi", VideoWriter::fourcc('M', 'J', 'P', 'G'), 
+    frames_per_second, frame_size, true); 
     
     //If the VideoWriter object is not initialized successfully, exit the program
     if (oVideoWriter.isOpened() == false) 

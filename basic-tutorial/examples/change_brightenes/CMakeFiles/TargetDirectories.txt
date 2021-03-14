@@ -1,0 +1,3 @@
+/home/qodirov/Documents/master-degree/opencv_learning/basic-tutorial/examples/change_brightenes/CMakeFiles/rebuild_cache.dir
+/home/qodirov/Documents/master-degree/opencv_learning/basic-tutorial/examples/change_brightenes/CMakeFiles/main.dir
+/home/qodirov/Documents/master-degree/opencv_learning/basic-tutorial/examples/change_brightenes/CMakeFiles/edit_cache.dir
